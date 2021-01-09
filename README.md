@@ -19,19 +19,19 @@ barhide [-hV] [options] <app>|<bundle_id>
 ### Using :beer: [Homebrew](//brew.sh)
 
 ```powershell
-brew install dafuqtor/tap/barhide
+brew install artginzburg/tap/barhide
 ```
 
 ### Using `curl`
 
 ```powershell
-curl -sL raw.githubusercontent.com/DaFuqtor/barhide/master/install.sh | sh
+curl -sL raw.githubusercontent.com/artginzburg/barhide/master/install.sh | sh
 ```
 
 ### Using Source Code
 
 ```powershell
-git clone https://github.com/DaFuqtor/barhide
+git clone https://github.com/artginzburg/barhide
 cd barhide
 make
 ```
