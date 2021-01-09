@@ -19,7 +19,7 @@ uninstall:
 	rm -f $(PREFIX)/bin/$(CMD)
 
 update:
-	git clone --no-checkout https://github.com/DaFuqtor/$(CMD) ~/$(CMD)/$(CMD).tmp && rm -rf ~/$(CMD)/.git && mv ~/$(CMD)/$(CMD).tmp/.git ~/$(CMD)/ && rmdir ~/$(CMD)/$(CMD).tmp && cd ~/$(CMD) && git reset --hard HEAD
+	git clone --no-checkout https://github.com/artginzburg/$(CMD) ~/$(CMD)/$(CMD).tmp && rm -rf ~/$(CMD)/.git && mv ~/$(CMD)/$(CMD).tmp/.git ~/$(CMD)/ && rmdir ~/$(CMD)/$(CMD).tmp && cd ~/$(CMD) && git reset --hard HEAD
 
 upgrade:
 	make update && make
