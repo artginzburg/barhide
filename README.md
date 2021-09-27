@@ -13,7 +13,7 @@ barhide [-hV] [options] <app>|<bundle_id>
       	[-f,  --force]     # Force preference change
 ```
 
-## Install · [![GitHub release](https://img.shields.io/github/release/artginzburg/barhide?label=%20&color=gray)](//github.com/artginzburg/barhide/releases)
+## Install · [![GitHub release](https://img.shields.io/github/release/artginzburg/barhide?label=%20&color=gray)](https://github.com/artginzburg/barhide/releases)
 
 ### Via :beer: [Homebrew](https://brew.sh)
 
@@ -24,7 +24,7 @@ brew install artginzburg/tap/barhide
 ### Using `curl`
 
 ```powershell
-curl -sL raw.githubusercontent.com/artginzburg/barhide/master/install.sh | sh
+curl -sL github.com/artginzburg/barhide/raw/HEAD/tools/install.sh | sh
 ```
 
 ### Using Source Code
